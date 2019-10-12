@@ -1,0 +1,254 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* Header Section*/
+header{
+    position: relative;
+    height: 60px;
+    top:0;
+    left: 0;
+    padding: 0 100px;
+    background: #262626;
+    width: 100%;
+    box-sizing: border-box;
+}
+header  .logo{
+    color: #ffffff;
+    height: 50px;
+    line-height: 50px;
+    font-size: 24px;
+    float: left;
+    font-weight: bold;
+}
+header nav{
+    float: right;
+}
+header nav ul{
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+header nav ul li{
+    list-style: none;
+}
+header nav ul li a{
+    height: 50px;
+    line-height: 50px;
+    padding: 0 20px;
+    color: #ffffff;
+    text-decoration: none;
+    display:block;
+}
+header nav ul li a:hover,
+header nav ul li a:active{
+    color: #cccccc;
+    background: #2196f3;
+}
+ 
+.menu-toggle{
+    color: #ffffff;
+    float: right;
+    line-height: 50px;
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+@media(max-width: 991px){
+    header{
+        padding: 0 20px;
+    }
+    .menu-toggle{
+        display: block;
+    }
+    header nav{
+        /*display: none;*/
+        position: absolute;
+        width: 100%;
+        height: calc(100vh - 50px);
+        background: #333333;
+        top: 50px;
+        left: -100%;
+        transition: 0.5s;
+    }
+    header nav.active{
+        left: 0; 
+    }
+    header nav ul{
+        display: block;
+        text-align: center;
+    }
+    header nav ul li a{
+        border-bottom: 1px solid rgba(0,0,0,.2);
+
+    }
+}
+
+/*Background image*/
+.hero{
+    width: 100%;
+    height: 500px;
+    min-width: 100%;
+    min-height: 100%;
+    position: relative;
+    background-image: url(images/slider1h2.jpg);
+
+}
+.hero::before{
+    background: url(./images/slider1h2.jpg);
+    
+
+}
+
+/*Login Section*/
+.log-inbox{
+    width: 320px;
+    height:420px;
+    background: #000000;
+    color: #ffffff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: -10%;
+    left: calc(50% - 50px);
+    border-radius: 50%
+}
+.heading{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.log-inbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.log-inbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.log-inbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.log-inbox input[type="submit"]{
+    border: none;
+    outline: none;
+    background: #2589fb;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.log-inbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(7, 255, 160);
+    color: #000000;
+}
+.log-inbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkgray;
+}
+.log-inbox a:hover{
+    color: #ffc107;
+}
+/* Sign-Up Register*/
+.signup-inbox{
+    width: 350px;
+    height:520px;
+    background: #000000;
+    color: #ffffff;
+    top: 60%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+.heading{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align: center;
+    font-size: 22px;
+}
+.signup-inbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+.signup-inbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+.signup-inbox input[type="text"], input[type="password"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #ffffff;
+    font-size: 16px;
+}
+.signup-inbox input[type="submit"]{
+    border: none;
+    outline: none;
+    background: #2589fb;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.signup-inbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: rgb(7, 255, 160);
+    color: #000000;
+}
+.signup-inbox a{
+    text-decoration: none;
+    font-size: 15px;
+    line-height: 20px;
+    color: darkgray;
+}
+.signup-inbox a:hover{
+    color: #ffc107;
+}
+/* Property listing*/
+#boxes{
+    margin-top:20px;
+ }
+.feature{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 40px;
+    width: 100%;
+}
+.pt-20{
+    margin-top: 20px;
+}
+.mb-20{
+    margin-bottom: 20px;
+}
+.pro-pay{
+    float: right;
+}
+.pborder{
+    border: 1px solid lightgray;
+}
+.psub{
+    border: 1px solid lightgray;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    </head>
+<body>
+    <!--Start Header-->
+    <header>
+        <div class="logo">LOGO</div>
+        <nav class="active">
+            <ul>
+               
+                <li><a href="#">Login</a></li>
+                <li><a href="#">Sign Up</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle"><i class="fa fa-bars" aria-hidden="true"></i></div>
+    </header> <!--End Header-->
+        <!--Login Section-->
+
+    <form id="post-listing">
+        <div class="col-sm-5 col-sm-offset-1">
+            <div class="form-group col-sm-10">
+                <label for=" "></label>
+                <input type="file" class="form-control-file" id="picture">
+            </div>
+            <div class="form-group">
+                <label for="">location</label>
+                <input type="text" class="form-control" id="name" placeholder="">        
+            </div>
+            <div class="form-group">
+                <label for="">Price</label>
+                <input type="text" class="form-control" id="price" placeholder="">
+            </div>
+            <div class="form-group">
+                <label for="">Description</label>
+                <input type="text" class="form-control" id="description" placeholder="">
+            </div>
+                
+            <button type="submit" class="btn btn-success">Post</button>
+        </div>
+    </form>
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script src="./list.js"></script>
+    <!--jquery function for the reponsive nav bar-->
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.menu-toggle').click(function(){
+                $('nav').toggleClass('active')
+            })
+        })
+    </script>
+</body>
+</html>

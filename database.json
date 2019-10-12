@@ -1,0 +1,66 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "email": "komeomodo@gmail.com",
+      "password": "koko12345"
+    },
+    {
+      "email": "tobi@foo.co",
+      "password": "password",
+      "id": 2
+    }
+  ],
+  "listing": [
+    {
+      "id": "foo",
+      "location": "2 Bed Room flat at Ikorodu",
+      "price": 10000000,
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nemo beatae excepturi totam ducimus molestiae dolores, delectus reprehenderit, eligendi natus reiciendis, quam quis officia ut sit tenetur minima expedita. Ducimus.",
+      "created_by": 1,
+      "image_url": "http://lorempixel.com/400/200"
+    },
+    {
+      "image_url": "C:\\fakepath\\luxury1.jpg",
+      "location": "dtfyguhjknlkava jh",
+      "price": "72899",
+      "description": "sdcgfghbjnk l,l",
+      "id": "CfLXnpt"
+    },
+    {
+      "image_url": "C:\\fakepath\\image-10-1-770x460.jpg",
+      "location": " gh jbknlml;,;dfjoo",
+      "price": "4647800",
+      "description": "bjnsdvcxszwaerxtysgukianldkaj",
+      "id": "PIAoG8n"
+    },
+    {
+      "image_url": "C:\\fakepath\\image22.jpg",
+      "location": "komeomodo@gmail.com",
+      "price": "72899",
+      "description": "dcfhbjnkml sdfknvk sdvndv wefsdijsdf sdfidfjkhdf",
+      "id": "mz0BlRJ"
+    },
+    {
+      "image_url": "C:\\fakepath\\slider1h3.jpg",
+      "location": "7 jubiri estate sangotedo, lekki-epe expressway",
+      "price": "₦120000000",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nemo beatae excepturi totam ducimus molestiae dolores, delectus reprehenderit, eligendi natus reiciendis, quam quis officia ut sit tenetur minima expedita. Ducimus.",
+      "id": "U-CEDD-"
+    },
+    {
+      "image_url": "C:\\fakepath\\image22.jpg",
+      "location": "kk",
+      "price": "120000000",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nemo beatae excepturi totam ducimus molestiae dolores, delectus reprehenderit, eligendi natus reiciendis, quam quis officia ut sit tenetur minima expedita. Ducimus.",
+      "id": "kLJ78JZ"
+    },
+    {
+      "image_url": "C:\\fakepath\\slider1h2.jpg",
+      "location": "gdjhksd@hzjdz",
+      "price": "₦7890736",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nemo beatae excepturi totam ducimus molestiae dolores, delectus reprehenderit, eligendi natus reiciendis, quam quis officia ut sit tenetur minima expedita. Ducimus.",
+      "id": "w0ZuMy1"
+    }
+  ]
+}
