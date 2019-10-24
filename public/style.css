@@ -153,6 +153,7 @@ header nav ul li a:active{
     color: #ffffff;
     font-size: 18px;
     border-radius: 20px;
+    padding: 10px;
 }
 .log-inbox input[type="submit"]:hover{
     cursor: pointer;
@@ -212,11 +213,13 @@ header nav ul li a:active{
     color: #ffffff;
     font-size: 18px;
     border-radius: 20px;
+    padding: 10px;
 }
 .signup-inbox input[type="submit"]:hover{
     cursor: pointer;
     background: rgb(7, 255, 160);
     color: #000000;
+    
 }
 .signup-inbox a{
     text-decoration: none;
@@ -237,9 +240,10 @@ header nav ul li a:active{
     font-size: 40px;
     width: 100%;
 }
-.pt-20{
+.mt-20{
     margin-top: 20px;
 }
+
 .mb-20{
     margin-bottom: 20px;
 }
@@ -251,4 +255,94 @@ header nav ul li a:active{
 }
 .psub{
     border: 1px solid lightgray;
+}
+
+/**DashBoard**/
+#welcomeHeader{
+    width: 100%;
+    height: 120px;
+    background: #2196f3;
+    color: #ffffff;
+}
+.sideBar{
+    width: 300px;
+    height: 400px;
+    background: #333333;
+    float: left;
+}
+.maindash{
+    height: 700px;
+    
+
+}
+#adminLogo{
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    position: absolute;
+    top: 0;
+    left: calc(50% - 50px);
+    border-radius: 50%;
+
+}
+.sideBar ul li{
+    padding: 20px;
+    border-bottom: 2px solid gray;
+}
+.sideBar ul li:hover{
+    background: #ffffff;
+    color: black;
+}
+
+.modals{
+    display: none; 
+    width: 500px; 
+    position: fixed;
+    top: 50%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    background: teal;
+    padding: 10px; 
+    color: white;
+
+}
+
+#budcard {
+    font-family: Helvetica;
+    border-collapse: collapse;
+    width: 70%;
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 10%;
+    
+  }
+  
+  #budcard td, #budcard th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #budcard tr:nth-child(even){
+  background-color: #f2f2f2;
+  }
+  
+  #budcard tr:hover {background-color: #ddd;}
+  
+  #budcard th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    background-color: #337AB7;
+    color: white;
+  }
+  .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
 }

@@ -1,66 +1,97 @@
 {
-  "user": [
+  "users": [
     {
-      "id": 1,
-      "email": "komeomodo@gmail.com",
-      "password": "koko12345"
+      "firstName": "bibi",
+      "phoneNumber": "08164291922",
+      "email": "bibi@gmail.com",
+      "password": "123456",
+      "id": 8
     },
     {
-      "email": "tobi@foo.co",
-      "password": "password",
-      "id": 2
+      "firstName": "kome ego",
+      "phoneNumber": "12344556678",
+      "email": "kome@gmail.com",
+      "password": "123456",
+      "id": 9
+    },
+    {
+      "firstName": "Kunmi Aponmade",
+      "phoneNumber": "09037849961",
+      "email": "kumi@gmail.com",
+      "password": "12345",
+      "id": 10
+    }
+  ],
+  "Admin": [
+    {
+      "firstName": "bibi",
+      "phoneNumber": "08164291922",
+      "email": "bibi@gmail.com",
+      "password": "123456",
+      "id": 1
     }
   ],
   "listing": [
     {
-      "id": "foo",
-      "location": "2 Bed Room flat at Ikorodu",
-      "price": 10000000,
+      "image_url": "./images/image1.jpg",
+      "location": "Mainland",
+      "price": "₦320000",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nemo beatae excepturi totam ducimus molestiae dolores, delectus reprehenderit, eligendi natus reiciendis, quam quis officia ut sit tenetur minima expedita. Ducimus.",
-      "created_by": 1,
-      "image_url": "http://lorempixel.com/400/200"
+      "id": 1,
+      "name": "Bungalow"
     },
     {
-      "image_url": "C:\\fakepath\\luxury1.jpg",
-      "location": "dtfyguhjknlkava jh",
-      "price": "72899",
-      "description": "sdcgfghbjnk l,l",
-      "id": "CfLXnpt"
+      "image_url": "./images/image22.jpg",
+      "location": "Ago Palace Road Opp. Market Square",
+      "price": "₦1500000",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nemo beatae excepturi totam ducimus molestiae dolores, delectus reprehenderit, eligendi natus reiciendis, quam quis officia ut sit tenetur minima expedita. Ducimus.",
+      "id": 2,
+      "name": "Duplex"
     },
     {
-      "image_url": "C:\\fakepath\\image-10-1-770x460.jpg",
-      "location": " gh jbknlml;,;dfjoo",
-      "price": "4647800",
-      "description": "bjnsdvcxszwaerxtysgukianldkaj",
-      "id": "PIAoG8n"
+      "name": "Bayelsa",
+      "image_url": "./images/luxury1.jpg",
+      "location": "Bayelsa",
+      "price": "20000000",
+      "description": "sfeifheieioe",
+      "s": "9",
+      "id": 3
     },
     {
-      "image_url": "C:\\fakepath\\image22.jpg",
+      "name": "komeomodo@gmail.com",
+      "image_url": "./images/image-10-1-770x460.jpg",
       "location": "komeomodo@gmail.com",
-      "price": "72899",
-      "description": "dcfhbjnkml sdfknvk sdvndv wefsdijsdf sdfidfjkhdf",
-      "id": "mz0BlRJ"
-    },
-    {
-      "image_url": "C:\\fakepath\\slider1h3.jpg",
-      "location": "7 jubiri estate sangotedo, lekki-epe expressway",
-      "price": "₦120000000",
-      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nemo beatae excepturi totam ducimus molestiae dolores, delectus reprehenderit, eligendi natus reiciendis, quam quis officia ut sit tenetur minima expedita. Ducimus.",
-      "id": "U-CEDD-"
-    },
-    {
-      "image_url": "C:\\fakepath\\image22.jpg",
-      "location": "kk",
       "price": "120000000",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nemo beatae excepturi totam ducimus molestiae dolores, delectus reprehenderit, eligendi natus reiciendis, quam quis officia ut sit tenetur minima expedita. Ducimus.",
-      "id": "kLJ78JZ"
+      "s": "9",
+      "id": 4
     },
     {
-      "image_url": "C:\\fakepath\\slider1h2.jpg",
-      "location": "gdjhksd@hzjdz",
-      "price": "₦7890736",
+      "name": "Cele Bus Stop",
+      "image_url": "./images/slider1h3.jpg",
+      "location": "Cele Bus Stop",
+      "price": "356363636",
       "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nemo beatae excepturi totam ducimus molestiae dolores, delectus reprehenderit, eligendi natus reiciendis, quam quis officia ut sit tenetur minima expedita. Ducimus.",
-      "id": "w0ZuMy1"
+      "s": "8",
+      "id": 5
+    },
+    {
+      "name": "Bunks",
+      "image_url": "./images/luxury1.jpg",
+      "location": "lekki",
+      "price": "120000000",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nemo beatae excepturi totam ducimus molestiae dolores, delectus reprehenderit, eligendi natus reiciendis, quam quis officia ut sit tenetur minima expedita. Ducimus.",
+      "s": "8",
+      "id": 7
+    },
+    {
+      "name": "Property Name",
+      "image_url": "./images/image-10-1-770x460.jpg",
+      "location": "Agor Palace Road",
+      "price": "120000000",
+      "description": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque nemo beatae excepturi totam ducimus molestiae dolores, delectus reprehenderit, eligendi natus reiciendis, quam quis officia ut sit tenetur minima expedita. Ducimus.",
+      "s": "8",
+      "id": 8
     }
   ]
 }
