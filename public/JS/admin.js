@@ -1,7 +1,7 @@
 
-// let showPassword = document.querySelector(".show-password")
+// 
 let adminSubmit = document.querySelector("#submit-admin")
-// showPassword.addEventListener("click", showPass)
+// s
 adminSubmit.addEventListener("submit", adminLogin)
 
 function adminLogin(e) {
@@ -14,7 +14,7 @@ function adminLogin(e) {
 
 
     fetch(url)
-    .then(res => res.json())
+    .then(response => response.json())
     .then(datas => {
 
         datas.forEach(data => {

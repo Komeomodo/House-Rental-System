@@ -20,11 +20,11 @@ $(document).ready(() => {
                 url: `http://localhost:3000/listing?s=${personID}`,
                 method: "get",
             }).done(data => {
-                for(let i=0; i<data.length; i++) {
+               for(let i=0; i<data.length; i++) {
             
                     $('.view-property').append(
                         `
-                                    <div class="col-md-4 col-sm-6" style="padding: 20px;">
+                                    <div class="col-md-4 col-sm-6 mb-20" style="padding: 20px;">
                                         <div class="card text-center">
                                             <div class="card-block">
                                                 <img src=${data[i].image_url}  class="img-fluid"/>

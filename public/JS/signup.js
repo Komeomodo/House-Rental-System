@@ -20,13 +20,13 @@ function registerUser(e) {
     }
 
     fetch(url)
-    .then(res => res.json())
-    .then(datas => {
+    .then(Response => Response.json())
+    .then(info => {
 
         if(firstName == '' || phoneNumber == '' || email == '' || password == '') {
-            showAlert("Fields are empty", "red")
+            showAlert("Fields are empty")
         }else {
-            let find = datas.some(data => {
+            let find = info.some(data => {
                 if(email == data.email){
                     return true
                 }
@@ -49,9 +49,9 @@ function registerUser(e) {
                         },
                         body: JSON.stringify(data)
                     })
-                    .then(res => res.json())
+                    .then(Response => Response.json())
                     .then(() => {
-                        alert("You have register successfully")
+                        alert("You have registered successfully")
                         window.location = 'dashboard.html'
                     })
                 }

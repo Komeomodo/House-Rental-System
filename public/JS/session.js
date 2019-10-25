@@ -11,7 +11,7 @@ if(sess) {
 }else{
     window.location = 'index.html'
 }
-
+//logout Session
 document.querySelector("#logout").addEventListener("click", () => {
     sessionStorage.removeItem("lock")
     window.location = 'index.html'

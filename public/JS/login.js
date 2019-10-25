@@ -15,15 +15,15 @@ function loginUser(e) {
 
     fetch(url)
     .then(res => res.json())
-    .then(datas => {
+    .then(info => {
 
-        datas.forEach(data => {
+        info.forEach(data => {
             if(email == data.email){
                 sessionStorage.setItem("lock", data.id)
             }
         })
 
-        let find = datas.some(data => {
+        let find = info.some(data => {
             if(email == data.email){
                 return true
             }
@@ -32,7 +32,7 @@ function loginUser(e) {
             }
         })
 
-        let pass = datas.some(data => {
+        let pass = info.some(data => {
             if(email == data.email && password == data.password){
                 return true
             }

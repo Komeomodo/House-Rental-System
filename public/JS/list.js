@@ -22,7 +22,7 @@ $(document).ready(() => {
         for(let i=0; i<data.length; i++) {
             $('.listing').append(
                 `
-                <div class="col-md-4 col-sm-6">
+                <div class="col-md-4 col-sm-6 mb-20">
                     <div class="card text-center">
                         <div class="card-block">
                             <img src=${data[i].image_url} class="img-fluid"/>

@@ -1,7 +1,7 @@
 // Admin session 
 let adminSess = sessionStorage.getItem("admin")
 if(adminSess) {
-    let url = `http://localhost:3000/users/${adminSess}`
+    let url = `http://localhost:3000/Admin/${adminSess}`
     fetch(url)
     .then(res => res.json())
     .then(data => {

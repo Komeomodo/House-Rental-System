@@ -247,6 +247,9 @@ header nav ul li a:active{
 .mb-20{
     margin-bottom: 20px;
 }
+.mb-40{
+    margin-bottom: 40px;
+}
 .pro-pay{
     float: right;
 }
@@ -311,9 +314,7 @@ header nav ul li a:active{
     font-family: Helvetica;
     border-collapse: collapse;
     width: 70%;
-    text-align: center;
-    margin-left: 15%;
-    margin-right: 10%;
+    margin-left: 15px;
     
   }
   
@@ -345,4 +346,8 @@ header nav ul li a:active{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
+}
+.fForm{
+    display: flex;
+    justify-content: center;
 }
